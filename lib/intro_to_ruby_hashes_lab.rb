@@ -4,7 +4,8 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-    hash[1]
+    hash[key = Hash.new 
+    
     end
 
 def update_counting_hash(hash, key)
